@@ -57,12 +57,32 @@ const Movies = () => {
             title: "Inception",
             cast: ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
             category: "Action",
+            releaseDate: "July 16, 2010",
+            budget: "$160 million"
         },
         {
             id: 2,
             title: "The Shawshank Redemption",
             cast: ["Tim Robbins", "Morgan Freeman"],
             category: "Drama",
+            releaseDate: "September 23, 1994",
+            budget: "$25 million"
+        },
+        {
+            id: 3,
+            title: "The Godfather",
+            cast: ["Marlon Brando", "Al Pacino", "James Caan"],
+            category: "Crime",
+            releaseDate: "March 24, 1972",
+            budget: "$6-7 million"
+        },
+        {
+            id: 4,
+            title: "Pulp Fiction",
+            cast: ["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
+            category: "Crime",
+            releaseDate: "October 14, 1994",
+            budget: "$8-8.5 million"
         },
     ];
 
