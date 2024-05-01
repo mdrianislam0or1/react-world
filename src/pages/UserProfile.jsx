@@ -41,7 +41,9 @@ const UserProfile = () => {
                             className="mt-4 p-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
                         />
                     </div>
+
                     <div className="border-t border-gray-200">
+                        <h1 className='text-center'>My Favorite Movies</h1>
                         <ul className="divide-y divide-gray-200">
                             {filteredFavoriteMovies.map(movie => (
                                 <li key={movie.id} className="px-4 py-4 sm:px-6">
@@ -55,6 +57,7 @@ const UserProfile = () => {
                                 </li>
                             ))}
                         </ul>
+                    
                     </div>
                 </div>
             </div>
